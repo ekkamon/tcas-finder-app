@@ -34,16 +34,16 @@ const NavItem: FC<INavItem> = ({ text, href }) => {
 
 export const Navbar: FC = () => {
   return (
-    <div className="w-full px-5 py-1.5 flex justify-center border-b border-zinc-100">
+    <div className="w-full px-3 py-1.5 flex justify-center border-b border-zinc-100">
       <div className="container">
         <div className="flex flex-wrap items-center justify-between mx-auto">
           <div className="flex items-center">
             <span className="font-bold font-eng text-xl uppercase">
-              TcasFinder
+              <Link href="/">TcasFinder</Link>
             </span>
           </div>
           <div className="w-auto">
-            <ul className="flex flex-cols gap-10 text-zinc-500">
+            <ul className="flex flex-cols gap-5 sm:gap-10 text-zinc-500">
               {NavMenu.map((v, i) => {
                 return <NavItem key={i} text={v.text} href={v.href} />;
               })}
