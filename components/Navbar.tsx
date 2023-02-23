@@ -34,7 +34,7 @@ const NavItem: FC<INavItem> = ({ text, href }) => {
 
 export const Navbar: FC = () => {
   return (
-    <div className="fixed w-full px-5 py-1.5 flex justify-center border-b border-zinc-100">
+    <div className="w-full px-5 py-1.5 flex justify-center border-b border-zinc-100">
       <div className="container">
         <div className="flex flex-wrap items-center justify-between mx-auto">
           <div className="flex items-center">
