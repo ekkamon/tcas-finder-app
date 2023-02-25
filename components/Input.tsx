@@ -7,6 +7,7 @@ interface InputProps {
 interface SelectProps {
   size?: 'small' | 'large';
   className?: string;
+  value?: string;
   placeholder?: string;
   menu?: Array<{
     label: string | number;
@@ -23,6 +24,7 @@ export const Input: FC<InputProps> = () => {
 export const Select: FC<SelectProps> = ({
   size,
   className,
+  value,
   placeholder,
   menu,
   onChange,
@@ -45,11 +47,9 @@ export const Select: FC<SelectProps> = ({
       className={`${styled} ${className}`}
       disabled={disabled}
       onChange={onChange}
-      defaultValue=""
+      value={value}
     >
-      <option value="" disabled>
-        {placeholder}
-      </option>
+      {placeholder && <option value="">{placeholder}</option>}
       {menu?.map((v, i) => {
         return (
           <option key={i} value={v.value}>
