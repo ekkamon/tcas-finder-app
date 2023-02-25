@@ -115,9 +115,14 @@ const Home: NextPage<Props> = ({ thisYear }) => {
 export const getStaticProps = async () => {
   return {
     props: {
-      thisYear: new Date()
-        .toLocaleString('default', { year: '2-digit' })
-        .replace(/^\D+/g, ''),
+      thisYear: parseInt(
+        new Date()
+          .toLocaleString('th-TH', {
+            timeZone: 'Asia/Bangkok',
+            year: '2-digit',
+          })
+          .replace(/^\D+/g, '')
+      ),
     },
   };
 };
