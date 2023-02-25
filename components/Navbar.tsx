@@ -14,7 +14,7 @@ const NavMenu: Array<INavItem> = [
   },
   {
     text: 'ติดต่อเรา',
-    href: 'https://facebook.com/',
+    href: 'https://github.com/ekkamon/tcas-finder-app/issues',
   },
 ];
 
