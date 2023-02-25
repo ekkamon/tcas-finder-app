@@ -47,7 +47,9 @@ export const Select: FC<SelectProps> = ({
       onChange={onChange}
       defaultValue=""
     >
-      <option value="">{placeholder}</option>
+      <option value="" disabled>
+        {placeholder}
+      </option>
       {menu?.map((v, i) => {
         return (
           <option key={i} value={v.value}>
