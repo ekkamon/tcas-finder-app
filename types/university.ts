@@ -5,6 +5,8 @@ export interface Faculty {
 }
 
 export interface Course {
+  course_id: string;
+  faculty_id: string;
   branch_name_th: string;
   branch_name_en: string;
   graduated: {
@@ -23,6 +25,6 @@ export interface University {
   university_id: string;
   university_name_th: string;
   university_name_en: string;
-  facultys: Array<Faculty>;
+  faculty: Array<Faculty>;
   course: Array<Course>;
 }
