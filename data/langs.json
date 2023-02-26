@@ -12,20 +12,20 @@
     "international": "หน่วยกิตกลุ่มสาระภาษาต่างประเทศ"
   },
   "score": {
-    "gpax": "เกรดเฉลี่ยรวมขั้นต่ำ",
+    "gpax": "เกรดเฉลี่ย (GPAX)",
     "math_gpa": "เกรดเฉลี่ยกลุ่มสาระคณิตศาสตร์",
     "science_gpa": "เกรดเฉลี่ยกลุ่มสาระวิทยาศาสตร์",
     "international_gpa": "เกรดเฉลี่ยกลุ่มสาระภาษาต่างประเทศ",
     "thai_gpa": "เกรดเฉลี่ยกลุ่มสาระภาษาไทย",
     "social_gpa": "เกรดเฉลี่ยกลุ่มสาระสังคมศึกษา",
-    "TGAT":"คะแนน TGAT ขั้นต่ำ",
-    "TPAT3":"คะแนน TPAT3 ขั้นต่ำ",
-    "A_LEVEL_MATH_1": "คะแนน A-Level คณิตศาสตร์ประยุกต์ 1 ขั้นต่ำ",
-    "A_LEVEL_PHYSICS": "คะแนน A-Level ฟิสิกส์ ขั้นต่ำ",
-    "A_LEVEL_CHEMICAL": "คะแนน A-Level เคมี ขั้นต่ำ",
-    "A_LEVEL_BIOLOGY": "คะแนน A-Level ชีววิทยา ขั้นต่ำ",
-    "A_LEVEL_SCIENCE": "คะแนน A-Level วิทยาศาสตร์ประยุกต์ ขั้นต่ำ",
-    "A_LEVEL_ENGLISH": "คะแนน A-Level ภาษาอังกฤษ ขั้นต่ำ"
+    "TGAT":"คะแนน TGAT",
+    "TPAT3":"คะแนน TPAT3",
+    "A_LEVEL_MATH_1": "คะแนน A-Level คณิตศาสตร์ประยุกต์ 1",
+    "A_LEVEL_PHYSICS": "คะแนน A-Level ฟิสิกส์",
+    "A_LEVEL_CHEMICAL": "คะแนน A-Level เคมี",
+    "A_LEVEL_BIOLOGY": "คะแนน A-Level ชีววิทยา",
+    "A_LEVEL_SCIENCE": "คะแนน A-Level วิทยาศาสตร์ประยุกต์",
+    "A_LEVEL_ENGLISH": "คะแนน A-Level ภาษาอังกฤษ "
   },
   "exam": {
     "gpax": "เกรดเฉลี่ยสะสม",
