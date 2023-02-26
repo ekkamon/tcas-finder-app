@@ -1,7 +1,19 @@
-import { FC, ChangeEventHandler } from 'react';
+import {
+  FC,
+  ChangeEventHandler,
+  DetailedHTMLProps,
+  InputHTMLAttributes,
+} from 'react';
 
 interface InputProps {
+  size?: 'small' | 'large';
   type: 'text' | 'number';
+  value?: number | string | null;
+  placeholder?: string;
+  onChange?: ChangeEventHandler<HTMLInputElement>;
+  min?: any;
+  max?: any;
+  disabled?: boolean;
 }
 
 interface SelectProps {
@@ -17,8 +29,40 @@ interface SelectProps {
   disabled?: boolean;
 }
 
-export const Input: FC<InputProps> = () => {
-  return <div></div>;
+export const Input: FC<InputProps> = ({
+  size,
+  type,
+  value,
+  placeholder,
+  onChange,
+  min,
+  max,
+  disabled,
+}) => {
+  let styled =
+    'text-sm px-2 border disabled:bg-slate-50 border-sinc-500 rounded w-full';
+
+  switch (size) {
+    case 'small':
+      break;
+    case 'large':
+      break;
+    default:
+      styled += ' py-1.5';
+  }
+
+  return (
+    <input
+      type={type}
+      value={value || ''}
+      className={styled}
+      onChange={onChange}
+      placeholder={placeholder}
+      min={min}
+      max={max}
+      disabled={disabled}
+    />
+  );
 };
 
 export const Select: FC<SelectProps> = ({
