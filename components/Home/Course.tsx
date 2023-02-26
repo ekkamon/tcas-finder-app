@@ -10,12 +10,15 @@ import {
   findSingleFaculty,
   findSingleCourse,
 } from '../../utils/DataManager';
+import { Calculate } from './Calculate';
 
 interface Props {
   university_id: string | null;
   faculty_id: string | null;
   course_id: string | null;
 }
+
+const maxStep = 4;
 
 export const CardCourse: FC<Props> = ({
   university_id,
@@ -29,7 +32,7 @@ export const CardCourse: FC<Props> = ({
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const nextStep = () => {
-    if (step < 2) {
+    if (step < maxStep) {
       setStep(step + 1);
       return;
     }
@@ -62,7 +65,7 @@ export const CardCourse: FC<Props> = ({
           </div>
         </div>
       </div>
-      <Modal isOpen={isOpen} className="mt-[5%] bg-white p-4 px-5 rounded">
+      <Modal isOpen={isOpen} className="m-auto bg-white p-4 px-5 rounded">
         <div className="w-full">
           <div className="flex ">
             <div className="w-[70%]">
@@ -149,7 +152,7 @@ export const CardCourse: FC<Props> = ({
                               className="flex items-center gap-2 text-sm"
                             >
                               <BsFillCheckCircleFill className="text-green-600" />
-                              <span>{getLang('score', lang)}</span>
+                              <span>{getLang('score', lang)} ขั้นต่ำ</span>
                               <span className="font-bold">
                                 {parseFloat(value).toFixed(2)}
                               </span>
@@ -202,17 +205,20 @@ export const CardCourse: FC<Props> = ({
                   </div>
                 </div>
                 <div className="mt-5 mb-5 text-center">
-                  <span className="bg-red-600 px-5 py-1 rounded text-white">
-                    <span className="font-eng font-bold">Good Luck</span>,
-                    ขอให้โชคดีกับเส้นทางที่เลือก :D
+                  <span className="text-sm">
+                    กด <span className="underline font-bold">ถัดไป</span>{' '}
+                    เพื่อเช็คโอกาสในการเข้าสาขานี้
                   </span>
                 </div>
               </>
             )}
+            {(step == 3 || step == 4) && (
+              <Calculate step={step} data={course} />
+            )}
             <div className="border-t">
               <div className="pt-4 flex items-center justify-end gap-3">
                 <Button color="primary" className="text-sm" onClick={nextStep}>
-                  {step != 2 ? 'ดำเนินการต่อ' : 'เสร็จสิ้น'}
+                  {step != maxStep ? 'ถัดไป' : 'เสร็จสิ้น'}
                 </Button>
                 <Button color="default" className="text-sm" onClick={backStep}>
                   ย้อนกลับ
