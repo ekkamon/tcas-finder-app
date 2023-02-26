@@ -20,7 +20,9 @@ export const Calculate: FC<Props> = ({ data, step }) => {
   const [passPercent, setPassPercent] = useState<number>();
 
   const handleFilter = (key: string) => {
-    if (key.indexOf('A_LEVEL') == -1 && !['TGAT3', 'TGAT'].includes(key)) {
+    if (
+      ![...Object.keys(data.calulate_scores), 'TGAT3', 'TGAT'].includes(key)
+    ) {
       return true;
     }
   };
