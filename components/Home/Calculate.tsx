@@ -170,6 +170,7 @@ export const Calculate: FC<Props> = ({ data, step }) => {
                     },
                     {
                       name: 'error',
+                      //@ts-ignore
                       value: 100 - passPercent,
                     },
                   ]}
