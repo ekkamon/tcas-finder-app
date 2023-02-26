@@ -1,214 +1,21 @@
 [
   {
     "university_id": "01",
-    "university_name_th": "จุฬาลงกรณ์มหาวิทยาลัย",
-    "faculty": [
-      {
-        "faculty_id": "01",
-        "faculty_name_th": "คณะสหเวชศาสตร์"
-      },
-      {
-        "faculty_id": "02",
-        "faculty_name_th": "คณะวิศวกรรมศาสตร์"
-      },
-      {
-        "faculty_id": "03",
-        "faculty_name_th": "คณะวิทยาศาสตร์"
-      }
-    ],
-    "course": [
-      {
-        "course_id": "01",
-        "faculty_id": "01",
-        "branch_name_th": "เทคนิคการแพทย์",
-        "graduated": {
-          "core": true,
-          "international": false,
-          "vocation": false,
-          "non_formol": false
-        },
-        "require_scores": {
-          "gpax": 2.5
-        },
-        "require_credit": {
-          "math": 12,
-          "science": 22
-        },
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 40,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_PHYSICS": 20
-        }
-      },
-      {
-        "course_id": "02",
-        "faculty_id": "02",
-        "branch_name_th": "วิศวกรรมคอมพิวเตอร์",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": true,
-          "non_formol": true
-        },
-        "require_scores": {
-          "gpax": 2.0
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "A_LEVEL_CHEMICAL": 30,
-          "A_LEVEL_MATH_1": 10,
-          "A_LEVEL_BIOLOGY": 30,
-          "A_LEVEL_ENGLISH": 10
-        }
-      },
-      {
-        "course_id": "03",
-        "faculty_id": "03",
-        "branch_name_th": "วิทยาการคอมพิวเตอร์",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": true,
-          "non_formol": false
-        },
-        "require_scores": {
-          "TPAT3": 30
-        },
-        "require_credit": {
-          "math_science": 30
-        },
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 80
-        }
-      },
-      {
-        "course_id": "04",
-        "faculty_id": "02",
-        "branch_name_th": "วิชาวิศวกรรมโยธา",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": true,
-          "non_formol": true
-        },
-        "require_scores": {
-          "gpax": 2.0
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 30,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_PHYSICS": 20,
-          "A_LEVEL_CHEMICAL": 10
-        }
-      },
-      {
-        "course_id": "05",
-        "faculty_id": "02",
-        "branch_name_th": "วิชาวิศวกรรมสิ่งแวดล้อม",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": true,
-          "non_formol": true
-        },
-        "require_scores": {
-          "gpax": 2.0
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 30,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_PHYSICS": 20,
-          "A_LEVEL_CHEMICAL": 10
-        }
-      },
-      {
-        "course_id": "06",
-        "faculty_id": "02",
-        "branch_name_th": "วิชาวิศวกรรมทรัพยากรธรณี",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": true,
-          "non_formol": true
-        },
-        "require_scores": {
-          "gpax": 2.0
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 30,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_PHYSICS": 20,
-          "A_LEVEL_CHEMICAL": 10
-        }
-      }
-    ]
-  },
-  {
-    "university_id": "02",
     "university_name_th": "มหาวิทยาลัยมหิดล (ศาลายา)",
     "faculty": [
       {
         "faculty_id": "01",
-        "faculty_name_th": "คณะแพทยศาสตร์รามาธิบดี"
-      },
-      {
-        "faculty_id": "02",
         "faculty_name_th": "คณะเภสัชศาสตร์"
       },
       {
-        "faculty_id": "03",
-        "faculty_name_th": "คณะวิทยาศาสตร์"
-      },
-      {
-        "faculty_id": "04",
-        "faculty_name_th": "คณะกายภาพบำบัด"
+        "faculty_id": "02",
+        "faculty_name_th": "คณะวิศวกรรมศาสตร์"
       }
     ],
     "course": [
       {
         "course_id": "01",
         "faculty_id": "01",
-        "branch_name_th": "พยาบาลศาสตรบัณฑิต",
-        "graduated": {
-          "core": true,
-          "international": false,
-          "vocation": false,
-          "non_formol": false
-        },
-        "require_scores": {
-          "gpax": 2.75,
-          "math_gpa": 2.75,
-          "science_gpa": 2.75,
-          "international_gpa": 2.75,
-          "TGAT": 25,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_ENGLISH": 30,
-          "A_LEVEL_SCIENCE": 20
-        },
-        "require_credit": {
-          "math": 12,
-          "science": 22,
-          "international": 9
-        },
-        "calulate_scores": {
-          "TGAT": 25,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_SCIENCE": 25,
-          "A_LEVEL_ENGLISH": 30
-        }
-      },
-      {
-        "course_id": "02",
-        "faculty_id": "02",
         "branch_name_th": "เภสัชศาสตรบัณฑิต",
         "graduated": {
           "core": true,
@@ -217,6 +24,7 @@
           "non_formol": false
         },
         "require_scores": {
+          "TGAT": 25,
           "A_LEVEL_PHYSICS": 30,
           "A_LEVEL_CHEMICAL": 30,
           "A_LEVEL_BIOLOGY": 30,
@@ -226,86 +34,17 @@
         "require_credit": {},
         "calulate_scores": {
           "TGAT": 20,
-          "A_LEVEL_MATH_1": 20,
-          "A_LEVEL_ENGLISH": 20,
-          "A_LEVEL_CHEMICAL": 14,
           "A_LEVEL_PHYSICS": 13,
-          "A_LEVEL_BIOLOGY": 13
+          "A_LEVEL_CHEMICAL": 14,
+          "A_LEVEL_BIOLOGY": 13,
+          "A_LEVEL_ENGLISH": 20,
+          "A_LEVEL_MATH_1": 20
         }
       },
       {
-        "course_id": "03",
-        "faculty_id": "03",
-        "branch_name_th": "วิชาคณิตศาสตร์",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": false,
-          "non_formol": false
-        },
-        "require_scores": {
-          "gpax": 2.75
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 20,
-          "A_LEVEL_MATH_1": 15,
-          "A_LEVEL_PHYSICS": 15,
-          "A_LEVEL_CHEMICAL": 15,
-          "A_LEVEL_BIOLOGY": 15
-        }
-      },
-      {
-        "course_id": "04",
-        "faculty_id": "03",
-        "branch_name_th": "วิชาเคมี",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": false,
-          "non_formol": false
-        },
-        "require_scores": {
-          "gpax": 2.75
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 20,
-          "A_LEVEL_MATH_1": 15,
-          "A_LEVEL_PHYSICS": 15,
-          "A_LEVEL_CHEMICAL": 15,
-          "A_LEVEL_BIOLOGY": 15
-        }
-      },
-      {
-        "course_id": "05",
-        "faculty_id": "03",
-        "branch_name_th": "วิชาชีววิทยา",
-        "graduated": {
-          "core": true,
-          "international": true,
-          "vocation": false,
-          "non_formol": false
-        },
-        "require_scores": {
-          "gpax": 2.75
-        },
-        "require_credit": {},
-        "calulate_scores": {
-          "TGAT": 20,
-          "TPAT3": 20,
-          "A_LEVEL_MATH_1": 15,
-          "A_LEVEL_PHYSICS": 15,
-          "A_LEVEL_CHEMICAL": 15,
-          "A_LEVEL_BIOLOGY": 15
-        }
-      },
-      {
-        "course_id": "06",
-        "faculty_id": "04",
-        "branch_name_th": "วิชากายภาพบำบัด",
+        "course_id": "02",
+        "faculty_id": "01",
+        "branch_name_th": "เทคนิคการแพทย์",
         "graduated": {
           "core": true,
           "international": false,
@@ -313,24 +52,95 @@
           "non_formol": false
         },
         "require_scores": {
-          "gpax": 3,
-          "math": 12,
-          "science": 22,
-          "thai_gpa": 3.0,
-          "math_gpa": 3.0,
-          "science_gpa": 3.0,
-          "social_gpa": 3.0,
-          "A_LEVEL_PHYSICS": 25,
-          "A_LEVEL_BIOLOGY": 30
+          "gpax": 2.5,
+          "TGAT": 20,
+          "TPAT3": 20,
+          "A_LEVEL_CHEMICAL": 20,
+          "A_LEVEL_BIOLOGY": 20,
+          "A_LEVEL_ENGLISH": 20,
+          "A_LEVEL_MATH_1": 20
         },
         "require_credit": {},
         "calulate_scores": {
-          "gpax": 10,
-          "TGAT": 40,
+          "TGAT": 20,
+          "A_LEVEL_MATH_1": 10,
+          "A_LEVEL_CHEMICAL": 30,
+          "A_LEVEL_BIOLOGY": 30,
+          "A_LEVEL_ENGLISH": 10
+        }
+      },
+      {
+        "course_id": "03",
+        "faculty_id": "01",
+        "branch_name_th": "พยาบาลศาสตรบัณทิต",
+        "graduated": {
+          "core": true,
+          "international": false,
+          "vocation": false,
+          "non_formol": false
+        },
+        "require_scores": {
+          "gpax": 2.75,
+          "A_LEVEL_PHYSICS": 15,
+          "A_LEVEL_CHEMICAL": 15,
+          "A_LEVEL_BIOLOGY": 20,
+          "A_LEVEL_THAI": 20,
+          "A_LEVEL_ENGLISH": 25,
+          "A_LEVEL_MATH_1": 15,
+          "A_LEVEL_SOCIAL": 20
+        },
+        "require_credit": {},
+        "calulate_scores": {
+          "TGAT": 30,
+          "A_LEVEL_MATH_1": 25,
+          "A_LEVEL_BIOLOGY": 10,
+          "A_LEVEL_CHEMICAL": 10,
+          "A_LEVEL_ENGLISH": 25
+        }
+      },
+      {
+        "course_id": "04",
+        "faculty_id": "02",
+        "branch_name_th": "วิศวกรรมคอมพิวเตอร์",
+        "graduated": {
+          "core": true,
+          "international": true,
+          "vocation": false,
+          "non_formol": false
+        },
+        "require_scores": {
+          "gpax": 3.0
+        },
+        "require_credit": {},
+        "calulate_scores": {
+          "TPAT3": 30,
+          "A_LEVEL_MATH_1": 25,
           "A_LEVEL_PHYSICS": 25,
-          "A_LEVEL_BIOLOGY": 25
+          "A_LEVEL_ENGLISH": 20
+        }
+      },
+      {
+        "course_id": "05",
+        "faculty_id": "02",
+        "branch_name_th": "วิศวกรรมเครื่องกล",
+        "graduated": {
+          "core": true,
+          "international": true,
+          "vocation": false,
+          "non_formol": false
+        },
+        "require_scores": {
+          "gpax": 3.0
+        },
+        "require_credit": {},
+        "calulate_scores": {
+          "TGAT": 20,
+          "TPAT3": 30,
+          "A_LEVEL_MATH_1": 25,
+          "A_LEVEL_PHYSICS": 25
         }
       }
+      
     ]
   }
 ]

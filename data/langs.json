@@ -25,7 +25,9 @@
     "A_LEVEL_CHEMICAL": "คะแนน A-Level เคมี",
     "A_LEVEL_BIOLOGY": "คะแนน A-Level ชีววิทยา",
     "A_LEVEL_SCIENCE": "คะแนน A-Level วิทยาศาสตร์ประยุกต์",
-    "A_LEVEL_ENGLISH": "คะแนน A-Level ภาษาอังกฤษ "
+    "A_LEVEL_ENGLISH": "คะแนน A-Level ภาษาอังกฤษ",
+    "A_LEVEL_THAI": "คะแนน A-Level ภาษาไทย",
+    "A_LEVEL_SOCIAL": "คะแนน A-Level สังคมศึกษา"
   },
   "exam": {
     "gpax": "เกรดเฉลี่ยสะสม",
