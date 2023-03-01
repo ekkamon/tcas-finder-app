@@ -14,6 +14,10 @@
       {
         "faculty_id": "03",
         "faculty_name_th": "คณะเทคนิคการแพทย์"
+      },
+      {
+        "faculty_id": "04",
+        "faculty_name_th": "คณะพยาบาลศาสตร์"
       }
     ],
     "course": [
@@ -75,7 +79,7 @@
       },
       {
         "course_id": "03",
-        "faculty_id": "01",
+        "faculty_id": "04",
         "branch_name_th": "พยาบาลศาสตรบัณทิต",
         "graduated": {
           "core": true,
