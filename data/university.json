@@ -10,6 +10,10 @@
       {
         "faculty_id": "02",
         "faculty_name_th": "คณะวิศวกรรมศาสตร์"
+      },
+      {
+        "faculty_id": "03",
+        "faculty_name_th": "คณะเทคนิคการแพทย์"
       }
     ],
     "course": [
@@ -43,7 +47,7 @@
       },
       {
         "course_id": "02",
-        "faculty_id": "01",
+        "faculty_id": "03",
         "branch_name_th": "เทคนิคการแพทย์",
         "graduated": {
           "core": true,
